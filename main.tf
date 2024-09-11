@@ -8,6 +8,6 @@ resource "terraform_data" "test" {
   }
 }
 
-data "local_file" "example_output" {
+data "local_file" "module_versions" {
   filename = "${path.module}/module_versions.txt"
 }
