@@ -46,6 +46,8 @@ module_calls = {
 ```
 worth noting the raw data is also available in the local resource which parses the file, but that is a much more complex structure to operate over.
 
+An simple Sentinel policy set for enforcing the use of specific module versions can be found [here](https://github.com/ChrisAdkin8/terraform-sentinel-enforce-module-version).
+
 ## Authors
 
 Currently maintained by [these contributors](../../graphs/contributors).
